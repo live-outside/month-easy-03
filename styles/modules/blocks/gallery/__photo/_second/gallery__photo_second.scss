@@ -1,0 +1,11 @@
+@media screen and (max-width: 1024px) {
+  .gallery__photo_second {
+    width: 455px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .gallery__photo_second {
+    width: 100%;
+  }
+}

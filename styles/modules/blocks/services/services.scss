@@ -1,0 +1,21 @@
+.services {
+  padding: 60px 160px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+  .services {
+    padding: 60px;
+    gap: 20px;
+  }
+
+}
+
+@media screen and (max-width: 767px) {
+  .services {
+    padding: 40px 20px 30px 20px;
+  }
+}

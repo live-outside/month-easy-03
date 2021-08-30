@@ -1,0 +1,13 @@
+.gallery__yellow-block {
+  background: #FFD233;
+  border-radius: 10px;
+  width: 100%;
+  // width: 912px;
+
+}
+
+@media screen and (max-width: 650px) {
+  .gallery__yellow-block {
+    height: 67px;
+  }
+}

@@ -1,0 +1,16 @@
+.donate {
+  padding: 60px 160px;
+}
+
+@media screen and (max-width: 1024px) {
+  .donate {
+    padding: 60px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .donate  {
+    padding: 40px 20px 30px 20px;
+  }
+
+}

@@ -1,0 +1,23 @@
+.donate__button {
+  background: #47474C;
+  border-radius: 8px;
+  max-width: 306px;
+  box-sizing: border-box;
+  padding: 13px 30px;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.375px;
+  border: 0;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+  .donate__button  {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}

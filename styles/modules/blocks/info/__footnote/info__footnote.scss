@@ -1,0 +1,23 @@
+.info__footnote {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 40px;
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 1024px) {
+  .info__footnote {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .info__footnote {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+}
