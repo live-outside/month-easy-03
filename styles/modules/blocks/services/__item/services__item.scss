@@ -1,0 +1,28 @@
+.services__item {
+  background: #1C1C1E;
+  border-radius: 16px;
+  padding: 40px;
+  max-width: 550px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.services__item:hover {
+  background: #232327;
+}
+
+@media screen and (max-width: 1024px) {
+  .services__item {
+    max-width: 648px;
+    gap: 20px;
+  }
+
+}
+
+@media screen and (max-width: 767px) {
+  .services__item {
+    width: 100%;
+
+  }
+
+}

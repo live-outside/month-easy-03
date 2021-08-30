@@ -1,0 +1,34 @@
+.form__page-input-email {
+  background: rgba(142, 142, 152, 0.2);
+  border-radius: 8px 0px 0px 8px;
+  box-sizing: border-box;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.375px;
+  color: #FFFFFF;
+  padding: 13px 0 13px 16px;
+  border: 0;
+  height: 50px;
+  width: 348px;
+  cursor: pointer;
+}
+
+.form__page-input-email:hover {
+  background: rgba(142, 142, 152, 0.3);
+}
+
+.form__page-input-email:focus {
+  background: rgba(142, 142, 152, 0.3);
+  outline: 0;
+  outline-offset: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .form__page-input-email {
+    width: 427px;
+  }
+
+}

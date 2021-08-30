@@ -1,0 +1,13 @@
+.utp__items-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+// @media screen and (max-width: 1024px) {
+//   .utp__items-wrapper {
+//     gap: 20px;
+//   }
+
+// }

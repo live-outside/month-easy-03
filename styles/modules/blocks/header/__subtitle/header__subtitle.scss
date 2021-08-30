@@ -1,0 +1,25 @@
+.header__subtitle {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 80px;
+  line-height: 70px;
+  color: #FFFFFF;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+}
+
+@media screen and (max-width: 1024px) {
+  .header__subtitle {
+    font-size: 50px;
+    line-height: 60px;
+  }
+
+}
+
+@media screen and (max-width: 767px) {
+  .header__subtitle {
+    font-size: 30px;
+    line-height: 38px;
+  }
+}

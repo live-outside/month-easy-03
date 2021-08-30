@@ -1,0 +1,27 @@
+.info__paragraph {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 40px;
+  color: #8E8E98;
+  padding-bottom: 60px;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+}
+
+@media screen and (max-width: 1024px) {
+  .info__paragraph {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+}
+
+@media screen and (max-width: 767px) {
+  .info__paragraph {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+}

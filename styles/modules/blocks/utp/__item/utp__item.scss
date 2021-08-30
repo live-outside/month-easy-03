@@ -1,0 +1,28 @@
+.utp__item {
+  box-sizing: border-box;
+  padding: 20px;
+  background: #1C1C1E;
+  border-radius: 10px;
+  max-width: 265px;
+  cursor: pointer;
+}
+
+.utp__item:hover {
+  background: #232327;
+}
+
+@media screen and (max-width: 1024px) {
+  .utp__item  {
+    max-width: 314px;
+    padding: 20px;
+  }
+
+}
+
+@media screen and (max-width: 767px) {
+  .utp__item  {
+    max-width: 100%;
+  }
+
+}
+
